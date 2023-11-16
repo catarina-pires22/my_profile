@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard&family=PT+Serif:wght@400;700&family=Raleway&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+body {
+	font-family:'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-family:'PT serif', serif;
+	font-weight: bold;
+	font-size: 25px;
+}	
+
+h2 {
+	font-family:'PT serif', serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}	 
+a {
+	text-decoration: none;
+}
+
+div {
+	width: 700px;
+	padding: 30px;
+	margin: 50px auto;
+}
+
+.website-team {
+	width: 700px;
+	padding: 10px;
+	margin: 50px auto;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	text-align: center;
+}
+
+
+.website-team img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
